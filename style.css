@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.section-line{
+      width:130px;
+      height:3px;
+      background:#e7a836;
+      border-radius:20px;
+      margin:8px auto 25px;
+    }
+
+
+  .menu-card{
+ border:0;
+       border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 18px rgba(0,0,0,.06);
+    }
+
+
+.add-btn:hover {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #ffc107;
+}
+.social-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .social-icon.active {
+    background-color: #FFB347;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 10px rgba(255, 179, 71, 0.4);
+  }
